@@ -64,4 +64,38 @@ All experiments are implemented as Jupyter notebooks and were developed and exec
 - GPU is recommended (Colab → Runtime → Change runtime type → GPU)
 - CPU is supported but significantly slower
 
+## 📊 Datasets
+
+This project uses three main data sources:
+
+- **SemEval-2026 Task 13 (Subtask A)** – primary dataset for training and evaluation  
+  https://huggingface.co/datasets/DaniilOr/SemEval-2026-Task13  
+
+- **CodeParrot** – large-scale corpus of mostly human-written code from GitHub  
+  https://huggingface.co/datasets/codeparrot/codeparrot-clean  
+
+- **Augmentation datasets** – additional JSONL files used for data augmentation and domain shift simulation (available in `data/augmentation/`)
+
+For more details, see the corresponding folders in `data/`.
+
+## 📈 Results
+
+The results for each experiment are reported at the end of the corresponding notebook.
+
+While exact values may vary slightly across runs, the reported performance should remain in a similar range. Minor differences can occur due to factors such as randomness in data shuffling, stochastic training processes, and hardware variations.
+
+## 📚 Citation
+
+- SemEval-2026 Task 13 Dataset  
+  https://huggingface.co/datasets/DaniilOr/SemEval-2026-Task13  
+
+- CodeParrot Dataset  
+  https://huggingface.co/datasets/codeparrot/codeparrot-clean  
+
+- CodeBERT  
+  Feng et al., 2020  
+  https://aclanthology.org/2020.findings-emnlp.139/
+
+   For a complete list of references, please refer to the accompanying paper.
+
 
