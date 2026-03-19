@@ -13,32 +13,32 @@ The results indicate that although the model achieves strong performance when th
 The repository is organized as a collection of experiments, each corresponding to a specific training strategy or evaluation setting described in the paper.
 
 - **exp1 – Frozen BERT Baseline**  
-  I evaluate a baseline where BERT is used as a fixed feature extractor without fine-tuning.
+  This experiment evaluates a baseline where BERT is employed as a fixed feature extractor, without fine-tuning.
 
 - **exp2 – Partial Fine-Tuning**  
-  I fine-tune only the last Transformer layers, significantly improving performance.
+  This experiment fine-tunes only the last Transformer layers, leading to a significant improvement in performance.
 
 - **exp3 – CodeBERT Fine-Tuning and LLM Comparison**  
-  I fully fine-tune CodeBERT and compare it with generative models.
+  This experiment fully fine-tunes CodeBERT and compares its performance with generative models.
 
 - **exp4 – Cross-Language Generalization**  
-  I analyze knowledge transfer across programming languages.
+  This experiment analyzes the ability of CodeBERT to transfer knowledge across programming languages.
 
 - **exp5 – Language Rotation Strategy**  
-  I investigate multi-language training for improved transfer.
+  This experiment investigates whether multi-language training improves cross-language transfer.
 
 - **exp6 – Synthetic Data Augmentation**  
-  I introduce synthetic samples to increase training diversity.
+  This experiment introduces synthetic samples to increase training diversity.
 
 - **exp7 – Domain Shift with GRL Augmentation**  
-  I study robustness under domain shift using adversarial training.
+  This experiment evaluates model robustness under domain shift using adversarial training with a Gradient Reversal Layer (GRL).
 
 - **exp8 – Large-Scale Domain Shift Training**  
-  I extend the setup with large-scale augmentation and regularization.
+  This experiment extends the training setup with large-scale data augmentation and stronger regularization to improve robustness under domain shift.
   
 - **exp9 – Human Data Augmentation with LLRD**  
-  I incorporate real human-written code and apply layer-wise learning rate decay.
-
+  This experiment incorporates real human-written code and applies layer-wise learning rate decay to improve robustness under domain shift.
+  
 All experiments are implemented as standalone notebooks in the `experiments/` directory.
 
   ## ▶️ How to Run
