@@ -11,8 +11,4 @@ Configuration "A" is used, which provides the following splits:
 - validation
 - test
 
-To load the dataset:
 
-```python
-from datasets import load_dataset
-ds = load_dataset("DaniilOr/SemEval-2026-Task13", "A")
