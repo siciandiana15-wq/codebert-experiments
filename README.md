@@ -35,6 +35,11 @@ The repository is organized as a collection of experiments, each corresponding t
 
 - **exp8 – Large-Scale Domain Shift Training**  
   I extend the setup with large-scale augmentation and regularization.
+  
+- **exp9 – Human Data Augmentation with LLRD**  
+  I incorporate real human-written code and apply layer-wise learning rate decay.
+
+All experiments are implemented as standalone notebooks in the `experiments/` directory.
 
   ## ▶️ How to Run
 
@@ -59,7 +64,4 @@ All experiments are implemented as Jupyter notebooks and were developed and exec
 - GPU is recommended (Colab → Runtime → Change runtime type → GPU)
 - CPU is supported but significantly slower
 
-- **exp9 – Human Data Augmentation with LLRD**  
-  I incorporate real human-written code and apply layer-wise learning rate decay.
 
-All experiments are implemented as standalone notebooks in the `experiments/` directory.
