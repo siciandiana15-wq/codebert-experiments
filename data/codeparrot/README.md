@@ -1,6 +1,6 @@
 # CodeParrot Dataset
 
-We use the CodeParrot dataset as an additional source of large-scale code data for augmentation and domain generalization.
+The CodeParrot dataset is used as an additional source of large-scale code data for augmentation and domain generalization. generalization.
 
 The dataset is publicly available on Hugging Face:
 
