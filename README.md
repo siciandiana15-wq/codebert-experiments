@@ -36,6 +36,29 @@ The repository is organized as a collection of experiments, each corresponding t
 - **exp8 – Large-Scale Domain Shift Training**  
   I extend the setup with large-scale augmentation and regularization.
 
+  ## ▶️ How to Run
+
+All experiments are implemented as Jupyter notebooks and were developed and executed in **Google Colab**.
+
+### Running in Google Colab (recommended)
+
+1. Open https://colab.research.google.com/
+2. Upload the desired notebook from the `experiments/` directory
+3. Run the notebook
+
+### Execution Modes
+
+- **Step-by-step execution**  
+  Some notebooks are structured into multiple stages (e.g., setup, preprocessing, training, evaluation) and should be executed sequentially, cell by cell.
+
+- **Single-cell execution**  
+  Other notebooks are implemented as a single cell and can be executed in one step.
+
+### Hardware
+
+- GPU is recommended (Colab → Runtime → Change runtime type → GPU)
+- CPU is supported but significantly slower
+
 - **exp9 – Human Data Augmentation with LLRD**  
   I incorporate real human-written code and apply layer-wise learning rate decay.
 
