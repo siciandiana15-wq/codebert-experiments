@@ -76,6 +76,9 @@ This project uses three main data sources:
 
 - **Augmentation datasets** – additional JSONL files used for data augmentation and domain shift simulation (available in `data/augmentation/`)
 
+- 
+- **LLM Human-like datasets** – synthetic datasets generated using LLMs to mimic student-written code, capturing realistic structure, naming patterns, and minor inconsistencies(available in `data/llm_human-like/`)
+
 For more details, see the corresponding folders in `data/`.
 
 ##  Results
