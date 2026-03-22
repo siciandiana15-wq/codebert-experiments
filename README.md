@@ -27,16 +27,13 @@ The repository is organized as a collection of experiments, each corresponding t
 - **exp5 – Language Rotation Strategy**  
   This experiment investigates whether multi-language training improves cross-language transfer.
 
-- **exp6 – Synthetic Data Augmentation**  
-  This experiment introduces synthetic samples to increase training diversity.
-
-- **exp7 – Domain Shift with GRL Augmentation**  
+- **exp6 – Domain Shift with GRL Augmentation**  
   This experiment evaluates model robustness under domain shift using adversarial training with a Gradient Reversal Layer (GRL).
 
-- **exp8 – Large-Scale Domain Shift Training**  
+- **exp7 – Large-Scale Domain Shift Training**  
   This experiment extends the training setup with large-scale data augmentation and stronger regularization to improve robustness under domain shift.
   
-- **exp9 – Human Data Augmentation with LLRD**  
+- **exp8 – Human Data Augmentation with LLRD**  
   This experiment incorporates real human-written code and applies layer-wise learning rate decay to improve robustness under domain shift.
   
 All experiments are implemented as standalone notebooks in the `experiments/` directory.
