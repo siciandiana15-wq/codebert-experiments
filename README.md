@@ -8,7 +8,7 @@ In this work, I investigate the effectiveness of CodeBERT for the task of AI-gen
 
 The results indicate that although the model achieves strong performance when the training and evaluation data follow similar distributions, its effectiveness decreases significantly under distribution shift. These findings highlight the importance of training data diversity and reveal limitations of current approaches in handling unseen languages and domains.
 
-## 🧪 Experiments
+##  Experiments
 
 The repository is organized as a collection of experiments, each corresponding to a specific training strategy or evaluation setting described in the paper.
 
@@ -41,7 +41,7 @@ The repository is organized as a collection of experiments, each corresponding t
   
 All experiments are implemented as standalone notebooks in the `experiments/` directory.
 
-  ## ▶️ How to Run
+  ##  How to Run
 
 All experiments are implemented as Jupyter notebooks and were developed and executed in **Google Colab**.
 
@@ -64,7 +64,7 @@ All experiments are implemented as Jupyter notebooks and were developed and exec
 - GPU is recommended (Colab → Runtime → Change runtime type → GPU)
 - CPU is supported but significantly slower
 
-## 📊 Datasets
+##  Datasets
 
 This project uses three main data sources:
 
@@ -78,13 +78,13 @@ This project uses three main data sources:
 
 For more details, see the corresponding folders in `data/`.
 
-## 📈 Results
+##  Results
 
 The results for each experiment are reported at the end of the corresponding notebook.
 
 While exact values may vary slightly across runs, the reported performance should remain in a similar range. Minor differences can occur due to factors such as randomness in data shuffling, stochastic training processes, and hardware variations.
 
-## 📚 Citation
+##  Citation
 
 - SemEval-2026 Task 13 Dataset  
   https://huggingface.co/datasets/DaniilOr/SemEval-2026-Task13  
