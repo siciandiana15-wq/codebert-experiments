@@ -95,6 +95,10 @@ While exact values may vary slightly across runs, the reported performance shoul
   Feng et al., 2020  
   https://aclanthology.org/2020.findings-emnlp.139/
 
+- Diana Sician, "About CodeBERT Generalization Power for Detecting AI-Generated Code
+  Across Unseen Languages and Domains", submitted to 25th International Conference
+  on Informatics in Economy, IE 2026
+
    For a complete list of references, please refer to the accompanying paper.
 
 
